@@ -1,0 +1,9 @@
+version: '3'
+services:
+    jdk-11:
+      image: maven:3.6-openjdk-11
+      volumes:  
+          - .:/dev_folder
+    #   command: /bin/bash
+    #   stdin_open: true
+    #   tty: true
